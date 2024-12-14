@@ -25,17 +25,17 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        Button button = findViewById(R.id.button);
-        EditText editText = findViewById(R.id.edit_text);
-        TextView textView = findViewById(R.id.text_view);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // обработка клика
-
-                String text = editText.getText().toString();
-                textView.setText(text);
-            }
-        });
+//        Button button = findViewById(R.id.button);
+////        EditText editText = findViewById(R.id.edit_text);
+//        TextView textView = findViewById(R.id.text_view);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // обработка клика
+//
+//                String text = editText.getText().toString();
+//                textView.setText(text);
+//            }
+//        });
     }
 }
